@@ -1,0 +1,26 @@
+.app-container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.favorites-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.favorites-link:hover {
+  text-decoration: underline;
+}

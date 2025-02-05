@@ -1,0 +1,53 @@
+.favorites {
+    padding: 16px;
+  }
+  
+  .favorites-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  
+  .favorite-card {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .favorite-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .favorite-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .favorite-year {
+    color: #555;
+  }
+  
+  .remove-button {
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff1a1a;
+  }
+  
